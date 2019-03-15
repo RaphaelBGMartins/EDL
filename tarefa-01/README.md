@@ -9,4 +9,3 @@ Cursando bacharelado em Ciência da Computação na UERJ
 ```
 Python, C, Java, JavaScript, HTML 5, CSS, C# e Banco de dados
 ```
-TESTE
