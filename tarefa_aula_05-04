@@ -1,0 +1,31 @@
+type Autores = [String]
+type Musica  = (String, Int, Int)
+
+bandas :: [Autores]
+bandas = [ ["Gilberto Gil"],
+           ["Victor","Leo"],
+           ["Gonzagao"],
+           ["Claudinho","Bochecha"] ]
+
+musicas :: [Musica]
+musicas = [ ("Aquele Abraco", 1, 100),
+            ("Esperando na Janela", 1, 150),
+            ("Borboletas", 2, 120),
+            ("Asa Branca", 3, 120),
+            ("Assum Preto", 3, 140),
+            ("Vem Morena", 3, 200),
+            ("Nosso Sonho", 4, 150),
+            ("Quero te Encontrar", 4, 100) ]
+
+f1 (nome,_,_) = nome
+f2 (_,_,temp) = temp
+f3 temp = temp >= 120
+f4 maior atual = if maior > atual then maior else atual
+f5 (_,_,temp) = temp >= 120
+--main = print(map f1 musicas)
+--main = print(filter f3 (map f2 musicas))
+--main = print(foldr f4 0 (map f2 musicas))
+--main = print(map f1 (filter f5 musicas))
+nome = map f1 musicas
+
+main = putStr("Nome: "++ nome!!1)
