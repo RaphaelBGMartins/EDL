@@ -1,4 +1,3 @@
---------haskell
 type Autores = [String]
 type Musica  = (String, Int, Int)
 
