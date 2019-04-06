@@ -31,4 +31,4 @@ maior_tempo = foldr f4 0 (map f2 musicas)
 nome_Musicas_2min_Mais = map f1 (filter f5 musicas)
 
 f (atual,num,temp) frase = "Nome: "++atual ++"\n"++"Autores: "++foldr f6 "" (bandas!!(num-1))++"\n"++"Duracao: "++show(temp)++"s\n---------\n"++frase
-main = putStr(foldr f "" musicas)
+main = putStr("Nome das Musicas:\n"++show(nome_Musicas)++"\n\n=========================\nSomente musicas com >= 2min:\n"++show(tempo_2min_Mais)++"\n\n=========================\nMaior duracao: \n"++show(maior_tempo)++"s"++"\n\n=========================\nNome das musicas com mais de 2min: \n"++show(nome_Musicas_2min_Mais)++"\n\n=========================\nPretty-Print Musica:\n\n"++foldr f "" musicas)
