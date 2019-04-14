@@ -221,11 +221,11 @@ int corotina(int parametro) {
 ## Bibliografia  
 
 > Ierusalimschy, Roberto; Figueiredo, Luiz Henrique de; Celes, Waldemar (2006). Lua Reference manual. Rio de Janeiro: Lua.org. 103 página;
-
+>
 > Ierusalimschy, Roberto (2006). Programming in Lua. Rio de Janeiro: Lua.org. 252 páginas;
-
+>
 > Jung, Kurt; Brown, Aaron (2007). Beginning Lua Programming. Indianapolis: Wiley Publishing. 644 páginas;
-
+>
 > https://pt.wikipedia.org/wiki/Lua_(linguagem_de_programa%C3%A7%C3%A3o);
-
+>
 > http://www.lua.org;
